@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { WorkspaceComponent } from './features/canvas/workspace/workspace.component';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  imports: [WorkspaceComponent]
 })
 export class App {
   protected title = 'CanvasCraft';

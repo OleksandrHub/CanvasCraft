@@ -1,0 +1,7 @@
+@use '../../../shared/styles/variables.scss';
+
+.properties-panel {
+    background-color: aquamarine;
+    width: 100%;
+    height: variables.$properties-panel-height;
+}
